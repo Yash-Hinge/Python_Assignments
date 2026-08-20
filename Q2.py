@@ -1,31 +1,21 @@
-def ChkGreater(No1,No2):
-    if(No1>No2):
-        return No1
+def NaturalSum(no1):
+    Sum =0
+    for i in range(1,(no1+1)):
+        Sum = Sum+i
 
-    elif(No2>No1):
-        return No2
 
-    else:
-        return 0
+    return Sum
+
 
 
 
 
 def main():
-    print("Enter the first Number")
-    Num1=int(input())
-    print("Enter the Second Number")
-    Num2=int(input())
+    num = int(input("enter the number :"))
 
+    ret = NaturalSum(num)
+    print("the sum of first ",num,"Numbers is :",ret)
 
-    ret = ChkGreater(Num1,Num2)
-
-    if(ret==0):
-        print("both numbers are same or equal .")
-
-    else:
-
-        print("print the greater number is :",ret)
 
 
 

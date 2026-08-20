@@ -1,24 +1,22 @@
-def Divisible3(no):
+def odd(no1):
+    fact=1
+    for i in range(1,(no1+1)):
+        if(i%2!=0):
+            print(i)
 
-    if(no%3==0):
-        return True
-    else:
-        return False
+
     
 
 
 
+
+
+
 def main():
-    print("Enter the number :")
-    num = int(input())
+    no=int(input("enter the number:"))
 
-    ret = Divisible3(num)
+    odd(no)
 
-    if(ret==1):
-        print("The number is divisible by 3")
-
-    else:
-        print("The number is not divisible by 3")
 
 
 

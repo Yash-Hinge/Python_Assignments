@@ -1,19 +1,21 @@
-def SquareCal(no1):
-    Square=0
+def factorial(no1):
+    fact=1
+    for i in range(1,(no1+1)):
+        fact= fact*i
 
-    Square=no1**2
+    return fact
 
-    return Square
+
+
 
 
 
 def main():
-    print("enter the number :")
-    Num = int(input())
+    no=int(input("enter the number:"))
 
-    ret =SquareCal(Num)
+    ret = factorial(no)
+    print("The factorial is :",ret)
 
-    print("The Square of the entered number is :",ret)
 
 
 

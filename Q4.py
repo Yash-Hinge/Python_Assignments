@@ -1,17 +1,22 @@
-def Cubecal(no1):
-    Cube =0
-    Cube = no1**3
-    return Cube
+def even(no1):
+    fact=1
+    for i in range(1,(no1+1)):
+        if(i%2==0):
+            print(i)
+
+
+    
+
+
+
 
 
 
 def main():
-    print("enter the number :")
-    num =int(input())
+    no=int(input("enter the number:"))
 
-    ret = Cubecal(num)
+    even(no)
 
-    print("the cube of the entered number is :",ret)
 
 
 
