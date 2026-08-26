@@ -1,0 +1,41 @@
+import multiprocessing
+import time 
+
+
+
+def SumSquare(no):
+    SumSquare=0
+    for i in range(1,no+1):
+        SumSquare=SumSquare+(i**2)
+
+
+    return SumSquare
+
+
+
+
+def main():
+    with multiprocessing.Pool() as pool:
+        start_time = time.perf_counter()
+        Data = list()
+        Size=int(input("Enter the no.of elemnets :"))
+        for i in range (Size):
+            no = int(input("Enter the element : "))
+            Data.append(no)
+
+
+
+        ret = list(pool.map(SumSquare,Data))
+
+        print("sum of Squares :",ret)
+
+        end_time =time.perf_counter()
+
+
+        print(f"Total time :{end_time-start_time:.4f}")
+
+
+
+
+if __name__ =="__main__":
+    main()
