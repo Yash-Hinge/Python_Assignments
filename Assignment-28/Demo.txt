@@ -1,0 +1,4 @@
+multiprocessing.Pool is a built-in Python class that manages a fixed set of worker processes to execute tasks concurrently.
+ It acts as a job coordinator by distributing data across multiple CPU cores, effectively bypassing Python's Global Interpreter Lock (GIL) to achieve true parallel execution for computational workloads.
+ Core PurposeInstead of manually creating, starting, and tracking individual processes, Pool automates the entire lifecycle. 
+ It creates a dedicated queue of tasks, automatically balances the workload across your machine's physical cores, and returns the aggregated results back to your main script.

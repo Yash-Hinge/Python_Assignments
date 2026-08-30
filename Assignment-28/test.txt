@@ -1,0 +1,44 @@
+Python is a powerful programming language.
+Many developers love Python because Python is easy to learn.
+
+Searching for a word in a file is a common programming task.
+A search program should search every line carefully.
+Search, search, SEARCH! Does your program treat them the same?
+
+The quick brown fox jumps over the lazy dog.
+The quick brown fox is quick and very quick.
+
+Apple banana apple Banana APPLE banana.
+Cat dog cat DOG cat dog.
+
+Data data DATA Data database database data.
+File file FILE files filing filed.
+
+This line contains numbers:
+123 456 789 123 123 456.
+
+Special characters:
+hello, hello. hello! (hello) "hello" 'hello'
+
+Some random words:
+algorithm
+binary
+compiler
+debug
+execute
+function
+variable
+object
+class
+module
+package
+library
+
+Repeated paragraph:
+Python makes programming fun.
+Python helps automate tasks.
+Python can process files.
+Python can search text.
+Python Python Python Python Python.
+
+End of file.
